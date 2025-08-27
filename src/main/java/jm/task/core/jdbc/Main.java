@@ -8,11 +8,11 @@ public class Main {
 
         userService.createUsersTable();
 
-        userService.saveUser("Jack", "Doe", (byte) 30);// реализуйте алгоритм здесь
-        userService.saveUser("Jasmin", "Taylor", (byte) 28);// реализуйте алгоритм здесь
-        userService.saveUser("Mike", "Miller", (byte) 29);// реализуйте алгоритм здесь
-        userService.saveUser("Anna", "Brown", (byte) 34);// реализуйте алгоритм здесь
-        userService.getAllUsers().forEach(System.out::println);
+        userService.saveUser("Jack", "Doe", (byte) 30);
+        userService.saveUser("Jasmin", "Taylor", (byte) 28);
+        userService.saveUser("Mike", "Miller", (byte) 29);
+        userService.saveUser("Anna", "Brown", (byte) 34);
+//        userService.getAllUsers().forEach(System.out::println);
 
         userService.cleanUsersTable();
         userService.dropUsersTable();
